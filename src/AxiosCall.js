@@ -2,7 +2,7 @@ import axios from "axios";
 
 //created axios instance and interceptors
 const userInstance = axios.create({
-	baseURL: "http://api.github.com",
+	baseURL: "https://api.github.com",
 });
 
 //user axios call

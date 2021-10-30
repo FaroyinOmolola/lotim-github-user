@@ -205,11 +205,8 @@ const Language = ({ url }) => {
 				const colorIndex = Math.round(Math.random() * 4);
 
 				return (
-					<Row>
-						<Col
-							key={index}
-							className="d-flex me-4 align-items-center"
-						>
+					<Row key={index}>
+						<Col className="d-flex me-4 align-items-center">
 							<div
 								className="dot me-1"
 								style={{ background: `${colors[colorIndex]}` }}
